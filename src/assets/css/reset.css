@@ -1,0 +1,73 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    /* table-layout: fixed; */
+    width: 100%;
+    /* border-collapse: collapse;
+    border-spacing: 0; */
+}
+
+caption {
+    font-weight: 300;
+    text-align: center;
+    font-size: 0.4rem;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+
+thead tr {
+    background-color: #66ccff;
+    color: #fff;
+    font-size: 0.16rem;
+    line-height: 2;
+}
+
+thead tr th,
+tbody tr td {
+    padding: 0 0.5em;
+}
+
+tbody tr td {
+    text-align: center;
+    line-height: 2;
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+    width: 1.2em;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background: #eee;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
