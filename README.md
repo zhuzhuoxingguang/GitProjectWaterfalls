@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-采用adaptive-version2.js做的移动端适配
+采用[adaptive-version2.js](https://github.com/finance-sh/adaptive) 做的移动端适配
 </br>
 采用[Vue Scroller](https://github.com/wangdahoo/vue-scroller) 做的移动端无限加载 
 ## Build Setup
