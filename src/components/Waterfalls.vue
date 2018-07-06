@@ -84,7 +84,7 @@ export default {
       axios.get("https://jsonplaceholder.typicode.com/photos", {page: this.page})
           .then(res=>res.data)
           .then(res => {
-            console.log(this.page)
+            // console.log(this.page)
             let counts = res.slice((this.page-1) * this.pageCount, this.page * this.pageCount)
             counts.forEach((item, index) => {
               item.src ='http://cued.xunlei.com/demos/publ/img/P_'+ this.randomNum()+ '.jpg'
@@ -92,7 +92,6 @@ export default {
             this.page++;
             this.itemsLen = counts.length;
             this.judgeAllLoaded(counts, done)
-            
           })
     },
     randomNum(){  // 三位数随机数，162以内
