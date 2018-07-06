@@ -4,7 +4,7 @@
 
 采用adaptive-version2.js做的移动端适配
 </br>
-采用Vue Scroller(https://github.com/wangdahoo/vue-scroller) 做的移动端无限加载 
+采用[Vue Scroller](https://github.com/wangdahoo/vue-scroller) 做的移动端无限加载 
 ## Build Setup
 
 ``` bash
